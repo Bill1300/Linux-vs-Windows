@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html{
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -109,3 +110,110 @@ footer{
 
 
 
+=======
+html{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size:100%;
+}
+/*Paragrafo de introdução ao trabalho (center)*/
+#paragrafo_intro{
+  text-align: center;
+}
+/*Paragrafo de de conteúdo do trabalho (justify)*/
+#paragrafo_conteudo{
+  text-align: justify;
+}
+#logo{
+  height: 16%;
+  width: 16%;
+  padding: 0%;
+  margin: 2% 0%;
+}
+/*Link's em conteúdo*/
+a.link_conteudo:link, a.link_conteudo:visited, a.link_conteudo:hover, a.link_conteudo:active{
+  text-decoration: none;
+  color: #00a1da;
+}
+/*Link's em rodapé*/
+a.link_rodape:link, a.link_rodape:visited, a.link_rodape:active{
+  text-decoration: none;
+  color: #505050;
+  margin: 10%; 
+}
+   a.link_rodape:hover{
+     text-shadow: 0px 0px 2px #505050;
+   }
+/*Conteúdo do site*/
+#envelope{
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  display:table;
+}
+#logo{
+  height: 16%;
+  width: 16%;
+  padding: 0%;
+  margin: 2% 0%;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding: 0%;
+  margin: 0% 0% 2%;
+}
+h2{
+  background-color: #00a1da;
+  color: #fff;
+  padding: 5px;
+  margin: 0%;
+  margin-right: 50%;
+  border-radius: 15px; 
+}
+/*h1 e #logo pertencem ao hearder*/
+header{
+  background-color:#00a1da;
+  text-shadow: 2px 2px #0078a0;
+  margin: 0px;
+  padding: 8px 4px 4px;
+  border-radius: 50px;
+}
+#LinuxWindows{
+  font-family: 'Great Vibes', cursive;
+  font-size: 110%;
+}
+hr{
+  height:2px;
+  border:none;
+  background-color:#d3d3d3;
+  margin: 0px;
+  border-radius: 50px;
+}
+/*Configuração do botao (Padrão)*/
+#botao{
+  background: #00a1da;
+  color: #fff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 90%;
+}
+  /*Configuração do botao quando o cursor está em cima*/
+  #botao:hover{
+    text-shadow: 0px 0px 2px #fff;
+  }
+footer{
+  background-color: #d3d3d3;
+  color: #808080;
+  margin: 2% 0% 0%;
+  padding: 2%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
+
+>>>>>>> 5b55614039d182e3d83efc38878bc1338ad36c14
