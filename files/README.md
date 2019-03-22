@@ -1,1 +1,3 @@
 # Linux-vs-Windows
+
+Esse trabalho foi feito por Cristiano Pereira da Silva, Gabriel Ângelo Cerutti, Lucas Sônego Candiotto, Renan Akira Nacimento Garcia Escribanos, Ulisses Genguini e Victor Manuel Moreira para a disciplina Estatística e Probabilidade (DEE052) como requisito parcial à conclusão da disciplina, do Curso de Licenciatura em Computação, Setor de Palotina, Universidade Federal do Paraná.
