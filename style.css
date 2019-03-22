@@ -71,6 +71,12 @@ header{
   font-family: 'Great Vibes', cursive;
   font-size: 110%;
 }
+#apresentacao{
+  background-color: #00a1da;
+  color: #fff;
+  padding: 10px 2px;
+  border-radius: 8px; 
+}
 hr{
   height:2px;
   border:none;
