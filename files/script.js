@@ -8,4 +8,3 @@ function atualizar(valor) {
   }
   iframe.src = iframe.src;
 }
-﻿
