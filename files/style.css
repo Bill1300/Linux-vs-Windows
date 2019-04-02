@@ -89,6 +89,9 @@
     flex: 70%;
     padding: 4%;
   }
+  #bloco-botao-mobile{
+    display: none;
+  }
   /* Google Forms (iframe) */
   #GForms{
     text-align: center;
@@ -113,7 +116,6 @@
     #atualizar:hover{
       text-shadow: 0px 0px 2px #fff;
     }
-  /*Configuração do link p/ GForms e GSheets*/
 
   /* Rodapé */
   footer {
