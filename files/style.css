@@ -89,6 +89,10 @@
     flex: 70%;
     padding: 4%;
   }
+  .conteudo{
+    flex: 70%;
+    padding: 4%;
+  }
   #bloco-botao-mobile{
     display: none;
   }
@@ -99,7 +103,7 @@
   }
   #GSheets{
     text-align: center;
-    margin: 8px;
+    margin: 2%;
   }
   #GSheets-iframe{
     border-style: none;
@@ -136,11 +140,16 @@
     h1{
       display: none;
     }
+    h2{
+      margin: 2% 20%;
+    }
     .row{
       width: 100%
     }
     #bloco-botao-mobile{
       margin: 5% 0%;
+      display: block;
+      text-align: center;
     }
     /*Configuração do botao do Google*/
     #link-google{
