@@ -1,146 +1,162 @@
-<style>
-* {
+*{
   box-sizing: border-box;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
-/* Style the body */
-body {
-  font-family: Arial;
-  font-size: 100%;
-  margin: 0;
-}
-
-/* Header/logo Title */
-header {
-  padding: 60px;
-  text-align: center;
-  background: #00a1da;
-  color: #fff;
-}
-h1{
-  text-align: center;
-  font-size: 30px;
-  color: #fff;
-  padding: 0%;
-  margin-top: 2%;
-  margin-bottom: 0%;
-}
-
-h2{
-  background-color: #00a1da;
-  color: #fff;
-  padding: 5px;
-  margin: 0%;
-  margin-right: 50%;
-  border-radius: 15px; 
-}
-.logo{
-  width: 15%;
-  height: 15%;
-}
-span{
-  font-family: 'Great Vibes', cursive;
-  font-size: 110%;
-}
-/* Column container */
-.row {  
-    margin: 0 auto;
-    width: 70%;
-}
-.side {
-  flex: 30%;
-  padding: 2%;
-}
-  /*Paragrafo de introdução ao trabalho (center)*/
-  #paragrafo_cent{
-      text-align: center;
-    }
-  /*Paragrafo de de conteúdo do trabalho (justify)*/
-  #paragrafo_just{
-    text-align: justify;
+  /* Style the body */
+  body {
+    font-family: Arial;
+    font-size: 100%;
+    margin: 0;
   }
-/*Link's em conteúdo*/
-a.link_conteudo:link, a.link_conteudo:visited, a.link_conteudo:hover, a.link_conteudo:active{
-  text-decoration: none;
-  color: #00a1da;
-}
 
-/*Link's em rodapé*/
-a.link_rodape:link, a.link_rodape:visited, a.link_rodape:active{
-  text-decoration: none;
-  color: #505050;
-  margin: 10%; 
-}
-  a.link_rodape:hover{
-   text-shadow: 0px 0px 2px #505050;
-  }
-/*Linha p/ separação*/ 
-hr{
-height:2px;
-border:none;
-background-color:#d3d3d3;
-margin: 2% 0%;
-border-radius: 50px;
-}
-
-/* Classe para o conteúdo */
-.main {
-  flex: 70%;
-  padding: 4%;
-}
-/* Google Forms (iframe) */
-#GForms{
-  text-align: center;
-}
-/*Configuração do botao*/
-.botao{
-  width: 0px;
-  height: 0px
-}
-#GSheets-iframe{
-  border-style: none;
-}
-/* Rodapé */
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* CSS Responsivo */
-@media (max-width: 700px) {
-  body{
-    font-size: 110%;
-  }
-  .logo{
-    width: 35%;
-    height: 35%;
+  /* Header/logo Title */
+  header {
+    padding: 60px;
+    text-align: center;
+    background: #00a1da;
+    color: #fff;
   }
   h1{
-    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
   }
-  .row{
-    width: 100%
+  span{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110%;
   }
-  /*Configuração do botao*/
-  .botao{
-    text-align: center; 
+  h2{
+    background-color: #00a1da;
+    color: #fff;
+    padding: 5px;
+    margin: 0%;
+    margin-right: 50%;
+    border-radius: 15px; 
+  }
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+  
+  /* Column container */
+  .row {  
+      margin: 0 auto;
+      width: 70%;
+  }
+  .side {
+    flex: 30%;
+    padding: 2%;
+  }
+    /*Paragrafo de introdução ao trabalho (center)*/
+    #paragrafo_cent{
+        text-align: center;
+      }
+    /*Paragrafo de de conteúdo do trabalho (justify)*/
+    #paragrafo_just{
+      text-align: justify;
+    }
+
+  /*Link's em conteúdo*/
+  a.link_conteudo:link, a.link_conteudo:visited, a.link_conteudo:hover, a.link_conteudo:active{
     text-decoration: none;
+    color: #00a1da;
+  }
+  /*Link's em rodapé*/
+  a.link_rodape:link, a.link_rodape:visited, a.link_rodape:active{
+    text-decoration: none;
+    color: #505050;
+    margin: 10%; 
+  }
+    a.link_rodape:hover{
+     text-shadow: 0px 0px 2px #505050;
+    }
+  /*Linha p/ separação*/ 
+  
+  hr{
+  height:2px;
+  border:none;
+  background-color:#d3d3d3;
+  margin: 2% 0%;
+  border-radius: 50px;
+  }
+  /* Classe para o conteúdo */
+  .main {
+    flex: 70%;
+    padding: 4%;
+  }
+  /* Google Forms (iframe) */
+  #GForms{
+    text-align: center;
+    margin: 8px;
+  }
+  #GSheets{
+    text-align: center;
+    margin: 8px;
+  }
+  #GSheets-iframe{
+    border-style: none;
+  }
+  #atualizar{
+    font-size: 110%;
     background-color: #00a1da;
     color: #fff;
     border-radius: 10px;
-    border-width: 0px;
     padding: 10px;
-    margin: 10px;
-    font-size: 100%;
+    margin: 30px;
+    border: none;
   }
-    .botao:hover{
+    #atualizar:hover{
       text-shadow: 0px 0px 2px #fff;
     }
-  #GSheets{
-    display: none;
-  }
+  /*Configuração do link p/ GForms e GSheets*/
 
-}
+  /* Rodapé */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  /************************************/
+  /* CSS Responsivo */
+  @media screen and (max-width: 640px) {
+    body{
+      font-size: 110%;
+    }
+    .logo{
+      width: 35%;
+      height: 35%;
+    }
+    h1{
+      display: none;
+    }
+    .row{
+      width: 100%
+    }
+    #bloco-botao-mobile{
+      margin: 5% 0%;
+    }
+    /*Configuração do botao do Google*/
+    #link-google{
+      font-size: 110%;
+      background-color: #00a1da;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 30px;
+      text-decoration: none;
+    }
+      #link-google:hover{
+        text-shadow: 0px 0px 2px #fff;
+      }
+    #GForms{
+      display: none;
+    }
+    #GSheets{
+      display: none;
+    }
+  }
