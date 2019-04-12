@@ -15,7 +15,7 @@
   header {
     padding: 60px;
     text-align: center;
-    background: #00a1da;
+    background: linear-gradient( #005b7c, #00a1da);
     color: #fff;
   }
   h1{
@@ -100,7 +100,6 @@
   }
   #graficoPC{
     display: flex;
-    text-align: center;
   }
   #graficoMobile{
     display: none;
