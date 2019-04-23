@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+  /* Style the body */
+  body {
+    font-family: Arial;
+    font-size: 100%;
+    margin: 0;
+  }
+
+  /* Header/logo Title */
+  header {
+    padding: 60px;
+    text-align: center;
+    background: linear-gradient( #005b7c, #00a1da);
+    color: #fff;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  span{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110%;
+  }
+  h2{
+    background-color: #00a1da;
+    color: #fff;
+    padding: 5px;
+    margin: 0%;
+    margin-right: 50%;
+    border-radius: 15px; 
+  }
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+  
+  /* Column container */
+  .row {  
+      margin: 0 auto;
+      width: 70%;
+  }
+  .side {
+    flex: 30%;
+    padding: 2%;
+  }
+    /*Paragrafo de introdução ao trabalho (center)*/
+    #paragrafo_cent{
+        text-align: center;
+      }
+    /*Paragrafo de de conteúdo do trabalho (justify)*/
+    #paragrafo_just{
+      text-align: justify;
+    }
+
+  /*Link's em conteúdo*/
+  a.link_conteudo:link, a.link_conteudo:visited, a.link_conteudo:hover, a.link_conteudo:active{
+    text-decoration: none;
+    color: #00a1da;
+  }
+  /*Link's em rodapé*/
+  a.link_rodape:link, a.link_rodape:visited, a.link_rodape:active{
+    text-decoration: none;
+    color: #505050;
+    margin: 10%; 
+  }
+    a.link_rodape:hover{
+     text-shadow: 0px 0px 2px #505050;
+    }
+  /*Linha p/ separação*/ 
+  
+  hr{
+  height:2px;
+  border:none;
+  background-color:#d3d3d3;
+  margin: 2% 0%;
+  border-radius: 50px;
+  }
+  ul{
+    text-align: justify;
+  }
+  /* Classe para o conteúdo */
+  .main {
+    flex: 70%;
+    padding: 4%;
+  }
+  .conteudo{
+    flex: 70%;
+    padding: 4%;
+  }
+  /* Google Forms (iframe) */
+  #GForms{
+    text-align: center;
+    margin: 8px;
+  }
+  #graficoPC{
+    display: flex;
+  }
+  #graficoMobile{
+    display: none;
+    text-align: center;
+  }
+
+  /* Rodapé */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  /************************************/
+  /* CSS Responsivo */
+  @media screen and (max-width: 960px) {
+    body{
+      font-size: 110%;
+    }
+    .logo{
+      width: 35%;
+      height: 35%;
+    }
+    h1{
+      display: none;
+    }
+    h2{
+      margin: 2% 20%;
+    }
+    .row{
+      width: 100%
+    }
+    #bloco-botao-mobile{
+      margin: 5% 0%;
+      display: block;
+      text-align: center;
+    }
+    /*Configuração do botao do Google*/
+    #link-google{
+      font-size: 110%;
+      background-color: #d3d3d3;
+      color: #fff;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 2%;
+      text-decoration: none;
+    }
+    #GForms{
+      display: none;
+    }
+    #graficoPC{
+      display: none;
+    }
+    #graficoMobile{
+      display: flex;
+      max-width:100%;
+      height:auto;
+    }
+  }
